@@ -43,3 +43,7 @@ void birb::draw(sf::RenderWindow& window) {
 	window.draw(beak);
 
 }
+
+void birb::move() {
+	ypos -= 1;
+}
